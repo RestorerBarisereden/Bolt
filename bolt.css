@@ -122,21 +122,26 @@
 }
 .cookie{
     width: 35%;
-    height: 140px;
+    height: 150px;
     border: 1px solid white;
     background-color: whitesmoke;
     border-radius: 5px;
-    margin-top: 20px;
     margin-left: 62%;
     position: sticky;
     bottom: 10px;
 }
-.cookie > p{
+.cookie-top{
+    display: flex;
+}
+.cookie-top > img{
+    margin-top: 15px;
+}
+.cookie-top > p{
     /* border: 1px solid red; */
     width: 380px;
     font-size: 14px;
     margin-top: 15px;
-    margin-left: 50px;
+    margin-left: 10px;
     line-height: 1.5;
 }
 .cookie > p > span{
